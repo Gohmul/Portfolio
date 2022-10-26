@@ -5,7 +5,7 @@ import Home from "./Home"
 
 export default function Main() {
     return(
-        <div className="main">
+        <div className="routes">
             <Routes>
                 <Route exact path="/" element={<Home/>}/>
                 <Route exact path="/about" element={<About/>}/>
